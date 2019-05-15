@@ -1,7 +1,7 @@
 import numpy as np
 
 list=[]; lists=[]; list25=[]
-for i in range(1,101):
+for i in range(0,101):
     list.append(i)
 
 np.random.shuffle(list)
