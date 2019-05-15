@@ -1,22 +1,3 @@
-# def prim(N):
-#     primek=2
-#     n=3
-#     x=0
-#     if N==2:
-#         n=3
-#     if N==1:
-#         n=2
-#     for i in range(10001):
-#         if  i<1:
-#             continue
-#         if primek==N:
-#             break
-#         n+=1
-#         if n%1==0 and n%n==0 and n%i!=0:
-#             primek+=1
-#             x=n
-#     return n
-# print(prim(6))
 def prim(n):
     primlist = [2]
     num = 3
